@@ -20,7 +20,6 @@ describe('<App />', () => {
     global.fetch = require('node-fetch')
     fetchMock.get('*', {people: [{name:"Stimpy"}]})
     fetchSpy = spy(global, "fetch")
-
   })
 
 
